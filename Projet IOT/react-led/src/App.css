@@ -1,0 +1,52 @@
+/* src/App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: row; /* Afficher les éléments horizontalement */
+  align-items: flex-start; /* Aligner les éléments en haut de la ligne */
+  justify-content: space-between; /* Espace équitable entre les éléments */
+  height: 100vh;
+}
+
+.map-container {
+  flex: 1; /* Occuper tout l'espace disponible */
+  margin-bottom: 10px; /* Ajouter un espacement en bas */
+}
+
+.panel {
+  width: 30%;
+  padding: 20px;
+}
+
+.map {
+  width: 100%; /* Ajuster la largeur de la carte selon vos besoins */
+  height: 500px; /* Utiliser une hauteur fixe pour éviter le redimensionnement */
+}
+
+
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.centered-button {
+  display: block;
+  margin-top: 10px; /* Ajouter un espacement en haut du bouton */
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.map-and-panel-container {
+  display: flex;
+}
+
+.panel {
+  width: 30%; /* Ajuster la largeur du panneau selon vos besoins */
+  padding: 20px; /* Ajouter un espace autour du panneau si nécessaire */
+  box-shadow: 0 0 10px rgba(180, 5, 5, 0.1); /* Ajouter une ombre légère */
+}
